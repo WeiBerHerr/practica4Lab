@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <script src="./funciones.js"></script>
+    <link rel="stylesheet" href="estilos/styleContacto.css">
+</head>
+<header>
+    <h1>CONTANOS QUE TE PARECIO LA PAGINA</h1>
+    <a id="interaccion-button-2" onclick="redireccion()" href="index.html">Volver Home</a>
+</header>
+<body>
+    <script src="./funciones.js"></script>
+    <div class="container">
+        <form id="contacto" action="">
+            <div>
+                <label for="nombre">NOMBRE</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Nombre"><span class="required">*</span>
+            </div>
+            <div>
+                <label for="edad">EDAD</label>
+                <input id="edad" name="edad" placeholder="33 22 44 "><span class="required">*</span>
+            </div>
+            <div>
+                <label for="pais">PAÍS</label>
+                <select id="pais" name="pais">
+                    <option value="argentina">Argentina</option>
+                    <option value="brasil">Brasil</option>
+                    <option value="mexico">México</option>
+                </select>
+            </div>
+            <div>
+                <label>Valua la Pagina</label>
+                <div class="idiomas-checkbox">
+                    <input type="checkbox" id="excelente" name="Muy Buena" >
+                    <label for="excelente">Excelente</label>
+                </div>
+                <div class="idiomas-checkbox">
+                    <input type="checkbox" id="buena" name="Excelente" >
+                    <label for="buena">Buena</label>
+                </div>
+                <div class="idiomas-checkbox">
+                    <input type="checkbox" id="regular" name="mala" >
+                    <label for="regular">Regular</label>
+                </div>
+            </div>
+        </form>
+        <div class="button-container">
+            <button class="square-button" type="button" onclick="enviarformulario()" ><a id="interaccion-button-3" href="index.html">Enviar Valuacion</a></button>
+            <button class="square-button" type="button" onclick="borrar()"  >Reiniciar Datos</button>
+        </div>
+    </div>
+</body>
+</html>

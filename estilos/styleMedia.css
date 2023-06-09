@@ -1,0 +1,41 @@
+body {
+    background-color: orange;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+  }
+  
+  iframe {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  p {
+    margin-left: 20px;
+  }
+  
+  #galeria {
+    text-align: center;
+    clear: both;
+    margin-top: 20px;
+  }
+  
+  #galeria h1 {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  #galeria span {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  #galeria img {
+    width: 200px;
+    height: 150px;
+  }
+  
